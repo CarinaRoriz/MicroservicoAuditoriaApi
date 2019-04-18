@@ -7,7 +7,7 @@ using MicrosservicoAuditoriaApi.Modelos;
 
 namespace MicrosservicoAuditoriaApi.Controllers
 {
-    [Route("v1/auditoria")]
+    [Route("v1/auditorias")]
     [ApiController]
     public class AuditoriaController : ControllerBase
     {
@@ -33,7 +33,7 @@ namespace MicrosservicoAuditoriaApi.Controllers
             return listaAuditoria;
         }
 
-        [HttpGet("pedido/{id}")]
+        [HttpGet("pedidos/{id}")]
         public async Task<ActionResult<IEnumerable<LogAuditoria>>> GetLogAuditoria(long id)
         {
             List<LogAuditoria> lista = listaAuditoria.Where(a=>a.IdPedido == id).ToList();
