@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "v1/auditoria",
+      "launchUrl": "v1/auditorias",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "MicrosservicoAuditoriaApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "v1/auditoria",
+      "launchUrl": "v1/auditorias",
       "applicationUrl": "https://localhost:5004",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
